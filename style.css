@@ -25,3 +25,7 @@ header li {
     background-color: gray;
     display: inline-block;
 }
+
+.address {
+    font-size: 10px;
+}
