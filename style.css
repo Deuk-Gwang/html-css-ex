@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 18;
 }
 
 header h1 {
@@ -27,5 +28,30 @@ header li {
 }
 
 .address {
-    font-size: 10px;
+    font-size: 14px;
+    background-color:aliceblue;
+    display:inline-block;
+    width:400px;
+    height: 20px;
+    text-align: center;
+}
+
+.container1 {
+    width: 800px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+.box1 {
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    background-color: white;
+}
+
+.box2 {
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    background-color: red;
 }
