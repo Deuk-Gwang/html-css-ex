@@ -1,13 +1,40 @@
 /* Global Setting */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-size: 14;
+    font-family: 'Noto Sans KR', sans-serif;
 }
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #787878;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
 
 a {
     text-decoration: none;
     color: #fff;
+}
+
+code {
+    background-color: #808080;
+    padding: 3px 10px 3px 10px;
+    margin: 0 0 3px 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
 }
 
 /* Header */
@@ -25,6 +52,16 @@ header nav {
 nav ul {
     display: inline-block;
     margin-right: 20px;
+}
+
+nav #totop{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav #about{
+    text-decoration: none;
+    color: #fff;
 }
 
 nav li {
@@ -64,8 +101,21 @@ main #board {
     overflow: auto;
 }
 
+main #board::-webkit-scrollbar {
+    width: 8px;
+}
+
+main #board::-webkit-scrollbar-thumb{
+    background-color: #787878;
+    border-radius: 4px;
+}
+
+main #board::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
 main #board li {
-    padding: 10px 0 10px 50px;
+    padding: 10px 0 10px 20px;
     text-align: left;
     border-bottom: #c9c9c9 solid 1px;
 }
@@ -82,6 +132,11 @@ main #board li:hover > a {
     background-color: transparent;
 }
 
+main .board-idx {
+    font-size: 16px;
+    color:#787878;
+}
+
 main #board a {
     color:#383838;
 }
@@ -94,4 +149,74 @@ main #content {
 
     border:#c9c9c9 solid 1px;
     border-radius: 10px;
+}
+
+main .title-section {
+    border-bottom: #c9c9c9 1px solid;
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+}
+
+main .title-section h2 {
+    font-size: 25px;
+    margin: 10px 0 0 25px;
+    color: #3d3d3d;
+}
+
+main .title-section h3 {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: right;
+    margin: 0 15px 5px 0;
+}
+
+main .paragraph-section {
+    width: 99%;
+    height: 800px;
+    overflow: auto;
+    padding: 10px 0 10px 10px;
+}
+
+main .paragraph-section::-webkit-scrollbar {
+    width: 8px;
+}
+
+main .paragraph-section::-webkit-scrollbar-thumb{
+    background-color: #787878;
+    border-radius: 4px;
+}
+
+main .paragraph-section::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+main .paragraph-section p {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: left;
+    clear: both;
+}
+
+main .paragraph-section code {
+    float: left;
+}
+
+footer {
+    height: 140px;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #787878;
+    text-align: center;
+    
+}
+
+footer a {
+    color:#dbdbdb;
+}
+
+footer .about-heyj {
+    font-size: 14px;
+    font-weight: 200;
+    color:#dbdbdb;
 }
