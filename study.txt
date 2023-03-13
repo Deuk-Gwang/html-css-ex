@@ -1,0 +1,12 @@
+Java Script
+
+var: var를 이용해 선언한 변수는 지역변수로 선언이 되더라도 전역에서 관리된다. 따라서 덮어쓰이거나 등등의 오류를 발생시킬 수 있다.
+let: let을 이용해 지역변수에 선언하게 되면 전역에서 접근할 수 없게 된다.
+const: 수정할 수 없는 값(읽기전용)
+
+console.log(): 파이썬의 print()와 같은 기능
+    ex. >> console.log("Hello World")
+        >> Hello World
+
+console.dir(): console.log()가 정상적으로 작동하지 않을 때 가끔 사용
+
